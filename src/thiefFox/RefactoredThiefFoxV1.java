@@ -4,16 +4,16 @@ public class RefactoredThiefFoxV1 {
 
     public static void main(String[] args) {
 
-        outofclass.group3.week8.thieffox.Fox fox1 = new outofclass.group3.week8.thieffox.Fox();
+        Fox fox1 = new Fox();
         fox1.setInfo(true,true, "BLACK",0);
 
-        outofclass.group3.week8.thieffox.Fox fox2 = new outofclass.group3.week8.thieffox.Fox();
+        Fox fox2 = new Fox();
         fox2.setInfo(true,true,"BLACK",2);
 
-        outofclass.group3.week8.thieffox.Fox fox3 = new outofclass.group3.week8.thieffox.Fox();
+        Fox fox3 = new Fox();
         fox3.setInfo(true,true,"BLACK",3);
 
-        outofclass.group3.week8.thieffox.Fox fox4 = new outofclass.group3.week8.thieffox.Fox();
+        Fox fox4 = new Fox();
         fox4.setInfo(false,true,"GRAY",3);
 
         if (fox1.isWearCoat && fox1.coatColor.equals("BLACK") && fox1.hasATorch && fox1.bagCount == 3) {
